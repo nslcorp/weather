@@ -1,0 +1,44 @@
+{
+  "Headline": {
+  "EffectiveDate": "2018-09-29T20:00:00+03:00",
+    "EffectiveEpochDate": 1538240400,
+    "Severity": 5,
+    "Text": "Дождь Суббота, вечер",
+    "Category": "rain",
+    "EndDate": "2018-09-30T02:00:00+03:00",
+    "EndEpochDate": 1538262000,
+    "MobileLink": "http://m.accuweather.com/ru/ua/dnipro/322722/extended-weather-forecast/322722",
+    "Link": "http://www.accuweather.com/ru/ua/dnipro/322722/daily-weather-forecast/322722"
+},
+  "DailyForecasts": [
+  {
+    "Date": "2018-09-28T07:00:00+03:00",
+    "EpochDate": 1538107200,
+    "Temperature": {
+      "Minimum": {
+        "Value": 51,
+        "Unit": "F",
+        "UnitType": 18
+      },
+      "Maximum": {
+        "Value": 67,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "Day": {
+      "Icon": 3,
+      "IconPhrase": "Небольшая облачность"
+    },
+    "Night": {
+      "Icon": 38,
+      "IconPhrase": "Преимущественно облачно"
+    },
+    "Sources": [
+      "AccuWeather"
+    ],
+    "MobileLink": "http://m.accuweather.com/ru/ua/dnipro/322722/daily-weather-forecast/322722?day=1",
+    "Link": "http://www.accuweather.com/ru/ua/dnipro/322722/daily-weather-forecast/322722?day=1"
+  }
+]
+}

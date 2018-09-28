@@ -19,3 +19,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 registerServiceWorker();
+
+//12hours 3kb 600ms  vs 2.4kb 200ms
+//5days 4,2kb 650ms
