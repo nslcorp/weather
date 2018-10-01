@@ -1,0 +1,166 @@
+{
+  "location": {
+    "name": "Dnipropetrovsk",
+    "region": "Dnipropetrovs'ka Oblast'",
+    "country": "Ukraine",
+    "lat": 48.45,
+    "lon": 34.98,
+    "tz_id": "Europe/Kiev",
+    "localtime_epoch": 1538398425,
+    "localtime": "2018-10-01 15:53"
+  },
+  "current": {
+    "last_updated_epoch": 1538397913,
+    "last_updated": "2018-10-01 15:45",
+    "temp_c": 20,
+    "temp_f": 68,
+    "is_day": 1,
+    "condition": {
+      "text": "Sunny",
+      "icon": "//cdn.apixu.com/weather/64x64/day/113.png",
+      "code": 1000
+    },
+    "wind_mph": 11.9,
+    "wind_kph": 19.1,
+    "wind_degree": 80,
+    "wind_dir": "E",
+    "pressure_mb": 1017,
+    "pressure_in": 30.5,
+    "precip_mm": 0,
+    "precip_in": 0,
+    "humidity": 49,
+    "cloud": 0,
+    "feelslike_c": 20,
+    "feelslike_f": 68,
+    "vis_km": 10,
+    "vis_miles": 6
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2018-10-01",
+        "date_epoch": 1538352000,
+        "day": {
+          "maxtemp_c": 20.1,
+          "maxtemp_f": 68.2,
+          "mintemp_c": 15.2,
+          "mintemp_f": 59.4,
+          "avgtemp_c": 14.3,
+          "avgtemp_f": 57.8,
+          "maxwind_mph": 10.3,
+          "maxwind_kph": 16.6,
+          "totalprecip_mm": 0,
+          "totalprecip_in": 0,
+          "avgvis_km": 18.7,
+          "avgvis_miles": 11,
+          "avghumidity": 55,
+          "condition": {
+            "text": "Partly cloudy",
+            "icon": "//cdn.apixu.com/weather/64x64/day/116.png",
+            "code": 1003
+          },
+          "uv": 3.4
+        },
+        "astro": {
+          "sunrise": "06:39 AM",
+          "sunset": "06:19 PM",
+          "moonrise": "10:21 PM",
+          "moonset": "01:18 PM"
+        }
+      },
+      {
+        "date": "2018-10-02",
+        "date_epoch": 1538438400,
+        "day": {
+          "maxtemp_c": 23.5,
+          "maxtemp_f": 74.3,
+          "mintemp_c": 14.2,
+          "mintemp_f": 57.6,
+          "avgtemp_c": 18.4,
+          "avgtemp_f": 65.1,
+          "maxwind_mph": 8.9,
+          "maxwind_kph": 14.4,
+          "totalprecip_mm": 0.1,
+          "totalprecip_in": 0,
+          "avgvis_km": 18,
+          "avgvis_miles": 11,
+          "avghumidity": 63,
+          "condition": {
+            "text": "Patchy rain possible",
+            "icon": "//cdn.apixu.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 2.7
+        },
+        "astro": {
+          "sunrise": "06:40 AM",
+          "sunset": "06:17 PM",
+          "moonrise": "11:18 PM",
+          "moonset": "02:20 PM"
+        }
+      },
+      {
+        "date": "2018-10-03",
+        "date_epoch": 1538524800,
+        "day": {
+          "maxtemp_c": 21.6,
+          "maxtemp_f": 70.9,
+          "mintemp_c": 11.2,
+          "mintemp_f": 52.2,
+          "avgtemp_c": 17.6,
+          "avgtemp_f": 63.7,
+          "maxwind_mph": 13.6,
+          "maxwind_kph": 22,
+          "totalprecip_mm": 0.4,
+          "totalprecip_in": 0.02,
+          "avgvis_km": 19.8,
+          "avgvis_miles": 12,
+          "avghumidity": 61,
+          "condition": {
+            "text": "Patchy rain possible",
+            "icon": "//cdn.apixu.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 3.1
+        },
+        "astro": {
+          "sunrise": "06:42 AM",
+          "sunset": "06:15 PM",
+          "moonrise": "No moonrise",
+          "moonset": "03:16 PM"
+        }
+      },
+      {
+        "date": "2018-10-04",
+        "date_epoch": 1538611200,
+        "day": {
+          "maxtemp_c": 14.5,
+          "maxtemp_f": 58.1,
+          "mintemp_c": 7,
+          "mintemp_f": 44.6,
+          "avgtemp_c": 11.6,
+          "avgtemp_f": 52.8,
+          "maxwind_mph": 20.8,
+          "maxwind_kph": 33.5,
+          "totalprecip_mm": 1.1,
+          "totalprecip_in": 0.04,
+          "avgvis_km": 18.1,
+          "avgvis_miles": 11,
+          "avghumidity": 56,
+          "condition": {
+            "text": "Patchy rain possible",
+            "icon": "//cdn.apixu.com/weather/64x64/day/176.png",
+            "code": 1063
+          },
+          "uv": 3
+        },
+        "astro": {
+          "sunrise": "06:43 AM",
+          "sunset": "06:13 PM",
+          "moonrise": "12:23 AM",
+          "moonset": "04:03 PM"
+        }
+      }
+    ]
+  }
+}
