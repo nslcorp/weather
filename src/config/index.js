@@ -1,5 +1,5 @@
-export default {
-  // weatherKey: 'L4CNbSfB1D67wTUtAY7Viev9n6O76RwG'
-  weatherKey: 'ukARpEXeA9PI9rz6XIlHIUwzmPY0lPEx'
-  // weatherKey: 'F6OYAmjseydKxZRETejionyZsTJQ3Rba',
-};
+import prod from './prod';
+import dev from './dev';
+const keys = process.env.NODE_ENV === 'production' ? prod : dev;
+
+export default keys;

@@ -1,11 +1,12 @@
 import * as types from './types';
 import api from '../../api';
 
-export const doGetCities = query => async dispatch => {
-  dispatch({ type: types.GET_CITIES_REQUEST });
+export const doGetForecast = () => async dispatch => {
+  dispatch({ type: types.GET_FORECAST_REQUEST });
 
-  console.log(api);
-  const data = await api.weather.getLocations(query);
+  const query = 'Dnipropetrovsk';
+  const days = 'days=4';
+  const data = await api.weather.getForecast(query);
   console.log(data);
-  dispatch({ type: types.GET_CITIES_SUCCESS, payload: data });
+  dispatch({ type: types.GET_FORECAST_SUCCESS, payload: data });
 };

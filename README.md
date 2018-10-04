@@ -1,3 +1,5 @@
 
 
-12hours 
+* setup api apixu calls
+
+
